@@ -21,7 +21,7 @@ public class Calc {
 
         InputStreamReader r=new InputStreamReader(System.in);
         BufferedReader br=new BufferedReader(r);
-        System.out.print("chose what do you want todo: + , - , * , /");
+        System.out.print("choose what do you want todo: +  -  *  /");
 
         String operation=br.readLine();
 
