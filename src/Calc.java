@@ -25,6 +25,10 @@ public class Calc {
 
         String operation=br.readLine();
 
-
+        if (operation.equals("+")){sum = x+y; }
+        if (operation.equals("-")){sum = x-y; }
+        if (operation.equals("*")){sum = x*y; }
+        if (operation.equals("/")){sum = x/y; }
+        System.out.println("resultatas: "+ sum);
     }
 }
